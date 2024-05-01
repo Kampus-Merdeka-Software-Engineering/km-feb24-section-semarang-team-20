@@ -1,0 +1,38 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+main {
+    display: flex; /* This will make the child elements of main (i.e., section and aside) to be in a row */
+    margin: 20px 0;
+}
+
+aside {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px;
+    flex: 1; /* This will make the aside element take up the remaining space */
+}
+
+section {
+    flex: 3; /* This will make the section element take up three times the space of the aside element */
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

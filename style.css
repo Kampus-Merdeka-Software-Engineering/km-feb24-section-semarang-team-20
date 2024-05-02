@@ -1,38 +1,56 @@
 /* style.css */
 
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex; /* Flexbox for header */
+    justify-content: space-between; /* Space out the elements evenly */
 }
 
 nav {
-    margin: 20px 0;
+    display: flex; /* Flexbox for nav */
+    justify-content: space-around; /* Space out the elements evenly */
+    justify-content: space-between; /* Space out the elements evenly */
 }
 
+.menu {
+    display: flex; /* Flexbox for menu */
+    gap: 20px; /* Gap between menu items */
+}
+
+
 main {
-    display: flex; /* This will make the child elements of main (i.e., section and aside) to be in a row */
+    display: grid; /* Grid for main */
+    grid-template-columns: 3fr 1fr; /* Three parts for section, one part for aside */
+    gap: 20px; /* Gap between grid items */
     margin: 20px 0;
 }
 
 aside {
     background-color: #f8f9fa;
     padding: 20px;
-    margin: 20px;
-    flex: 1; /* This will make the aside element take up the remaining space */
 }
 
 section {
-    flex: 3; /* This will make the section element take up three times the space of the aside element */
+    padding: 20px;
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+    display: flex; /* Flexbox for footer */
+    justify-content: space-between; /* Space out the elements evenly */
 }
+

@@ -1,32 +1,53 @@
 /* style.css */
 
 /* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family:"Poppins", sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #FFEDFF;
 }
 
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
     padding: 20px;
     text-align: center;
-    display: flex; /* Flexbox for header */
-    justify-content: space-between; /* Space out the elements evenly */
 }
 
 nav {
     display: flex; /* Flexbox for nav */
-    justify-content: space-around; /* Space out the elements evenly */
     justify-content: space-between; /* Space out the elements evenly */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-header {
+    display: flex;
+    gap: 30px;
+}
+
+.section-name{
+    text-align: left;
+    line-height:0px;
 }
 
 .menu {
     display: flex; /* Flexbox for menu */
-    gap: 20px; /* Gap between menu items */
+    gap: 30px; /* Gap between menu items */
+    margin: auto 0;
 }
-
 
 main {
     display: grid; /* Grid for main */
@@ -45,8 +66,9 @@ section {
 }
 
 footer {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 -3px 15px 3px rgba(0, 0, 0, 0.25);
     padding: 20px;
     text-align: center;
     margin-top: 20px;
@@ -54,3 +76,16 @@ footer {
     justify-content: space-between; /* Space out the elements evenly */
 }
 
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

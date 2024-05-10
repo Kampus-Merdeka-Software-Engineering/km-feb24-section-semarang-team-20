@@ -9,6 +9,8 @@ frontend - design UI dan bikin codingan (4 orang)
   
 deployment - ngedeploy dan ngeconnect ke server (1 orang)
 - kresna
+
+
 QA - testing sm bug fixing (3 orang)
 - Mustika
 - Dian

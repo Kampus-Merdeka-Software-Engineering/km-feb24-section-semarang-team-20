@@ -51,7 +51,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 20px; */
   }
   
   .dashboard {
@@ -73,12 +72,12 @@ body {
   }
   
   .box h3, .box p {
-    font-size: 14px; /* This will make the text inside the boxes smaller */
+    font-size: 14px; 
   }
 
   .separator {
     text-align: left;
-    margin: 20px 0; /* Adjust margin to place separator correctly */
+    margin: 20px 0;
   }
   
   .separator span {
@@ -116,30 +115,30 @@ body {
   }
   
   .filter-options h3 {
-    margin-bottom: 10px; /* Add margin below the title */
+    margin-bottom: 10px; 
 }
 
 .product-category,
 .month,
 .day {
-    margin-bottom: 20px; /* Add margin between filter categories */
+    margin-bottom: 20px; 
 }
 
 .product-category h3,
 .month h3,
 .day h3 {
-    font-weight: bold; /* Make h3 elements bold */
+    font-weight: bold;
 }
 
 .line-separator {
     border: none;
     border-top: 1px solid black;
-    width: calc(100% - 20px); /* Make the line separator as long as the space taken by the checkboxes */
-    margin: 10px 0; /* Add margin above and below the line separator */
+    width: calc(100% - 20px);
+    margin: 10px 0; 
 }
 
 .data {
-    flex-grow: 1; /* Make 'data' div grow to fill remaining space */
+    flex-grow: 1; 
 }
 
 .our-members {
@@ -149,38 +148,38 @@ body {
     text-align: left;
     line-height: 40px;
     padding-left: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    box-sizing: border-box; 
 }
 
 .team-members {
-    width: 100%; /* Ensure the container spans the full width */
+    width: 100%; 
     display: flex;
-    flex-wrap: wrap; /* Allow members to wrap to the next line */
-    justify-content: space-between; /* Add space between members */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     border: 2px solid black;
-    box-sizing: border-box; /* Ensure border is included in the width */
+    box-sizing: border-box; 
     padding: 3%;
 }
 
 
 .member {
-    flex-basis: calc(30% - 5%); /* Set the initial width of each member */
-    max-width: calc(30% - 5%); /* Set maximum width for each member */
+    flex-basis: calc(30% - 5%); 
+    max-width: calc(30% - 5%);
     text-align: center;
-    margin-bottom: 20px; /* Add space between rows */
+    margin-bottom: 20px;
 }
 
 .member img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Make the image circular */
-    margin-bottom: 10px; /* Add space below the image */
+    border-radius: 50%; 
+    margin-bottom: 10px; 
 }
 
 .invisible-separator {
-    height: 10px; /* Set the height of the separator */
-    border-top: 10px solid transparent; /* Set transparent border on the top */
-    border-bottom: 10px solid transparent; /* Set transparent border on the bottom */
+    height: 10px; 
+    border-top: 10px solid transparent; 
+    border-bottom: 10px solid transparent; 
 }
   
   
@@ -193,8 +192,8 @@ header {
 }
 
 nav {
-    display: flex; /* Flexbox for nav */
-    justify-content: space-between; /* Space out the elements evenly */
+    display: flex; 
+    justify-content: space-between; 
 }
 
 nav a {
@@ -202,8 +201,8 @@ nav a {
 }
 
 nav a.active {
-    text-decoration: underline; /* Underline the active link */
-    font-weight: bold; /* Optionally make the text bold */
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
@@ -222,8 +221,8 @@ a:hover {
 }
 
 .menu {
-    display: flex; /* Flexbox for menu */
-    gap: 30px; /* Gap between menu items */
+    display: flex; 
+    gap: 30px;
     margin: auto 0;
 }
 
@@ -234,6 +233,50 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
-    display: flex; /* Flexbox for footer */
-    justify-content: space-between; /* Space out the elements evenly */
+    display: flex; 
+    justify-content: space-between; 
 }
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px; 
+    object-fit: cover;
+}
+
+.member-contact {
+    display: flex;
+    align-items: center; 
+    width: 45%; 
+    margin-bottom: 10%;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid black;
+    flex-grow: 1;
+}
+
+.contact-info p {
+    margin: 5px 0; /* Adjust margin between each paragraph */
+}
+
+
+@media (max-width: 768px) {
+    .member-contact {
+        width: 100%; 
+        margin-bottom: 5%;
+    }
+}
+

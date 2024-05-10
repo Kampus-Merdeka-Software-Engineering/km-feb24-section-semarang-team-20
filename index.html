@@ -1,95 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <!-- Navigation Bar -->
-                <!-- <h1>Navigation Bar</h1> -->
-                <div class="logo-header">
-                    <img alt="Logo RevoU" src="image/Logo-RevoU-5.png" width="60px" height="60px" style="margin: auto 0;">
-                    <div class="section-name">
-                        <h4>Section Semarang</h4>
-                        <h4>Kelompok 20</h4>
-                    </div>
-                </div>
-                <div class="menu">
-                    <a href="#dashboard">Dashboard</a>
-                    <a href="#about">About Us</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <!-- Navigation links go here -->
-            </nav>
-        </header>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="index">
+      <div id="navigation"></div>
 
-        <main>
-            <section id="overview">
-                <article>
-                    <!-- Overview Section -->
-                    <h2>Overview</h2>
-                    <!-- Overview content goes here -->
-                </article>
-            </section>
+      <script src="navigation.js"></script>
 
-            <section id="analytics">
-                <article>
-                    <!-- Analytics Section -->
-                    <h2>Analytics</h2>
-                    <h1>ini artikel</h1>
-                    <p>lorem isum adadadada</p>
-                </article>
-            </section>
+      <div class="page-wrapper">
+        <div class="content">
+          <h2 class="dashboard">Dashboard Coffee Shop</h2>
 
-            <aside>
-                <!-- Sidebar Section -->
-                <h2>Sidebar</h2>
-                <!-- Sidebar or additional information goes here -->
-            </aside>
-
-            <section id="reports">
-                <article>
-                    <!-- Reports Section -->
-                    <h2>Reports</h2>
-                    <!-- Reports content goes here -->
-                </article>
-            </section>
-
-            <section id="settings">
-                <article>
-                    <!-- Settings Section -->
-                    <h2>Settings</h2>
-                    <!-- Settings content goes here -->
-                    <form>
-                        <label for="username">Username:</label><br>
-                        <input type="text" id="username" name="username"><br>
-                        <label for="password">Password:</label><br>
-                        <input type="password" id="password" name="password"><br>
-                        <label for="role">Role:</label><br>
-                        <select id="role" name="role">
-                            <option value="admin">Admin</option>
-                            <option value="user">User</option>
-                        </select><br>
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
-                    </form>
-                </article>
-            </section>
-        </main>
-
-        <footer>
-            <!-- Footer Section -->
-            <div class="copyright">
-                <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+          <div class="box-container">
+            <div class="box">
+              <h3>Total Transaction</h3>
+              <p>214,065</p>
             </div>
-            <div class="menu1">
-                <a href="#dashboard">Dashboard</a>
-                <a href="#about">About Us</a>
-                <a href="#contact">Contact</a>
+            <div class="box">
+              <h3>Total Revenue</h3>
+              <p>697,374</p>
             </div>
-        </footer>
-    </body>
+          </div>
+        </div>
+
+        <div class="separator">
+          <hr />
+          <span>Filter</span>
+          <hr />
+        </div>
+
+        <div class="filter-options">
+          <div class="product-category">
+            <h3>Product Category</h3>
+            <label><input type="checkbox" value="Tea" /> Tea</label>
+            <label
+              ><input type="checkbox" value="Drinking Chocolate" /> Drinking
+              Chocolate</label
+            >
+            <label><input type="checkbox" value="Coffee" /> Coffee</label>
+            <label><input type="checkbox" value="Bakery" /> Bakery</label>
+          </div>
+          <hr class="line-separator" />
+          <div class="month">
+            <h3>Month</h3>
+            <label><input type="checkbox" value="January" /> January</label>
+            <label><input type="checkbox" value="February" /> February</label>
+            <label><input type="checkbox" value="March" /> March</label>
+            <label><input type="checkbox" value="April" /> April</label>
+            <label><input type="checkbox" value="May" /> May</label>
+            <label><input type="checkbox" value="June" /> June</label>
+          </div>
+          <hr class="line-separator" />
+          <div class="day">
+            <h3>Day</h3>
+            <label><input type="checkbox" value="Monday" /> Monday</label>
+            <label><input type="checkbox" value="Tuesday" /> Tuesday</label>
+            <label><input type="checkbox" value="Wednesday" /> Wednesday</label>
+            <label><input type="checkbox" value="Thursday" /> Thursday</label>
+            <label><input type="checkbox" value="Friday" /> Friday</label>
+            <label><input type="checkbox" value="Saturday" /> Saturday</label>
+            <label><input type="checkbox" value="Sunday" /> Sunday</label>
+          </div>
+        </div>
+        <div class="data"></div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="footer.js"></script>
+
+  </body>
 </html>

@@ -195,6 +195,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a.active {
+    text-decoration: underline; /* Underline the active link */
+    font-weight: bold; /* Optionally make the text bold */
+}
+
+
 a:hover {
     text-decoration: underline;
 }

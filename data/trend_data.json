@@ -1,0 +1,4412 @@
+[
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 235
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 207
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 393
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 226
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 368
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 343
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 358
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 433
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 249
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 220
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 393
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 236
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 491
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 760
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 689
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 878
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 444
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 429
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 247
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 395
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 180
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 351
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 320
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 239
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 396
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 745
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 779
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 679
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 467
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 438
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 472
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 579
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 323
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 292
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 342
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 447
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 275
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 218
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 144
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 266
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 151
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 140
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 365
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 461
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 463
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 335
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 540
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 309
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 386
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 781
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 676
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 450
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 852
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 502
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 338
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 316
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 274
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 441
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 578
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 495
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 241
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 168
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 147
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 256
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 130
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 114
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 49
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 115
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 74
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 100
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 41
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 48
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 183
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 152
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 112
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 104
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 177
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 113
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 190
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 163
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 302
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 194
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 286
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 287
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 114
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 190
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 218
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 114
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 173
+  },
+  {
+    "dayOfWeek": "Sunday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 121
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 260
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 484
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 265
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 404
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 194
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 297
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 192
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 435
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 440
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 233
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 251
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 318
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 508
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 520
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 830
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 913
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 450
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 571
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 497
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 422
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 236
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 206
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 289
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 216
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 931
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 814
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 547
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 439
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 381
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 436
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 583
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 347
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 311
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 271
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 654
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 346
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 187
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 186
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 288
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 271
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 146
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 266
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 296
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 619
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 663
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 293
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 435
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 1007
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 499
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 768
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 638
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 529
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 400
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 655
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 555
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 325
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 374
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 299
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 395
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 261
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 191
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 167
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 161
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 116
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 49
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 99
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 42
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 33
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 104
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 76
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 96
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 103
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 130
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 114
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 222
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 184
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 195
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 205
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 341
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 182
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 387
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 252
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 143
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 246
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 218
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 156
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 120
+  },
+  {
+    "dayOfWeek": "Monday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 109
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 467
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 431
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 253
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 176
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 225
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 217
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 228
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 443
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 421
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 325
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 191
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 255
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 430
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 998
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 453
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 613
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 893
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 369
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 210
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 439
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 404
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 222
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 193
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 274
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 911
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 790
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 455
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 562
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 392
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 444
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 293
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 634
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 568
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 445
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 261
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 269
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 356
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 271
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 196
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 161
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 147
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 123
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 365
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 298
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 526
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 593
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 232
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 403
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 497
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 936
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 405
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 869
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 340
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 609
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 648
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 233
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 576
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 329
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 243
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 413
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 223
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 315
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 174
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 134
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 172
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 155
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 83
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 85
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 51
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 65
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 108
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 50
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 85
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 197
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 186
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 110
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 107
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 108
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 155
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 336
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 192
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 351
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 229
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 191
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 116
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 126
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 140
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 220
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 228
+  },
+  {
+    "dayOfWeek": "Tuesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 96
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 209
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 296
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 161
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 306
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 384
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 494
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 198
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 440
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 395
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 328
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 178
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 282
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 531
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 375
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 609
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 893
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 800
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 414
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 286
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 350
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 318
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 205
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 220
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 481
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 406
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 729
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 582
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 569
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 861
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 353
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 412
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 484
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 626
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 272
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 283
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 386
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 175
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 200
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 318
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 239
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 138
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 157
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 516
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 650
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 421
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 243
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 312
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 408
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 609
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 984
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 550
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 427
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 733
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 420
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 423
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 599
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 466
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 302
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 265
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 406
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 111
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 212
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 276
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 107
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 118
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 257
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 48
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 111
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 109
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 54
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 56
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 68
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 93
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 203
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 146
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 189
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 83
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 149
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 309
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 146
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 267
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 375
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 238
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 95
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 241
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 169
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 151
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 214
+  },
+  {
+    "dayOfWeek": "Wednesday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 102
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 366
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 530
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 294
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 174
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 286
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 197
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 282
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 370
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 218
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 467
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 288
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 179
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 644
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 753
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 1008
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 595
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 407
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 403
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 263
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 260
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 172
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 353
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 542
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 197
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 679
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 1027
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 367
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 584
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 569
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 407
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 449
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 530
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 670
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 413
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 289
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 246
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 233
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 122
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 163
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 198
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 302
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 280
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 280
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 700
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 380
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 469
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 306
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 412
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 332
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 633
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 1077
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 824
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 434
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 599
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 413
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 556
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 251
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 293
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 714
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 403
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 232
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 206
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 196
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 139
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 71
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 127
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 98
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 86
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 35
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 52
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 35
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 66
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 119
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 164
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 239
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 122
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 81
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 74
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 239
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 275
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 159
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 237
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 411
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 165
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 170
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 206
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 260
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 150
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 94
+  },
+  {
+    "dayOfWeek": "Thursday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 107
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 212
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 279
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 578
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 210
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 401
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 309
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 220
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 420
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 313
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 479
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 290
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 240
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 414
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 1111
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 376
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 573
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 548
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 750
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 458
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 161
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 285
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 267
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 360
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 179
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 747
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 374
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 565
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 403
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 1037
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 522
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 521
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 259
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 373
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 364
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 677
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 305
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 226
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 180
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 371
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 247
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 141
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 137
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 265
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 428
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 273
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 576
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 658
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 330
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 661
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 1005
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 697
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 438
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 545
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 422
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 256
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 279
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 383
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 324
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 509
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 692
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 183
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 276
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 279
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 105
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 147
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 192
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 46
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 32
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 119
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 79
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 65
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 56
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 158
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 182
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 141
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 128
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 90
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 100
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 168
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 246
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 380
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 311
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 249
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 179
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 202
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 236
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 107
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 102
+  },
+  {
+    "dayOfWeek": "Friday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 388
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 412
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 201
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 170
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 191
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Drip coffee",
+    "totalQty": 386
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 402
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 206
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 202
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 249
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 378
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Organic brewed coffee",
+    "totalQty": 366
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 431
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 699
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 826
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 335
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 471
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Gourmet brewed coffee",
+    "totalQty": 764
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 353
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 379
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 389
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 193
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 188
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Premium brewed coffee",
+    "totalQty": 229
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 766
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 729
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 371
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 486
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 725
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Coffee",
+    "productType": "Barista Espresso",
+    "totalQty": 389
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 236
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 303
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 463
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 552
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 527
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed herbal tea",
+    "totalQty": 248
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 137
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 282
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 148
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 255
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 147
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Green tea",
+    "totalQty": 222
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 330
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 511
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 573
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 460
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 262
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Black tea",
+    "totalQty": 226
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 770
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 808
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 497
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 337
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 424
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Tea",
+    "productType": "Brewed Chai tea",
+    "totalQty": 867
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 504
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 521
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 539
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 282
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 333
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Drinking Chocolate",
+    "productType": "Hot chocolate",
+    "totalQty": 251
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 220
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 145
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 161
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 155
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 301
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Regular syrup",
+    "totalQty": 120
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 77
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 49
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 104
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 63
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 54
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Flavours",
+    "productType": "Sugar free syrup",
+    "totalQty": 71
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 107
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 168
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 180
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 97
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 93
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Biscotti",
+    "totalQty": 153
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 291
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 340
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 327
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 149
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 163
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Scone",
+    "totalQty": 162
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "February",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 105
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "March",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 120
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "May",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 216
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "April",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 204
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "June",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 190
+  },
+  {
+    "dayOfWeek": "Saturday",
+    "monthOfYear": "January",
+    "productCategory": "Bakery",
+    "productType": "Pastry",
+    "totalQty": 92
+  }
+]

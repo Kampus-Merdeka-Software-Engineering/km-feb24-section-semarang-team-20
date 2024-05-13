@@ -30,46 +30,214 @@
           <span>Filter</span>
           <hr />
         </div>
-
-        <div class="filter-options">
-          <div class="product-category">
-            <h3>Product Category</h3>
-            <label><input type="checkbox" value="Tea" /> Tea</label>
-            <label
-              ><input type="checkbox" value="Drinking Chocolate" /> Drinking
-              Chocolate</label
-            >
-            <label><input type="checkbox" value="Coffee" /> Coffee</label>
-            <label><input type="checkbox" value="Bakery" /> Bakery</label>
+        <div class="index-container">
+          <div class="filter-options">
+            <div class="product-category">
+              <h3>Product Category</h3>
+              <label><input type="checkbox" value="Tea" checked /> Tea</label>
+              <label
+                ><input type="checkbox" value="Drinking Chocolate" checked />
+                Drinking Chocolate</label
+              >
+              <label
+                ><input type="checkbox" value="Coffee" checked /> Coffee</label
+              >
+              <label
+                ><input type="checkbox" value="Bakery" checked /> Bakery</label
+              >
+              <label
+                ><input type="checkbox" value="Flavours" checked />
+                Flavours</label
+              >
+            </div>
+            <hr class="line-separator" />
+            <div class="month">
+              <h3>Month</h3>
+              <label
+                ><input type="checkbox" value="January" checked />
+                January</label
+              >
+              <label
+                ><input type="checkbox" value="February" checked />
+                February</label
+              >
+              <label
+                ><input type="checkbox" value="March" checked /> March</label
+              >
+              <label
+                ><input type="checkbox" value="April" checked /> April</label
+              >
+              <label><input type="checkbox" value="May" checked /> May</label>
+              <label><input type="checkbox" value="June" checked /> June</label>
+            </div>
+            <hr class="line-separator" />
+            <div class="day">
+              <h3>Day</h3>
+              <label
+                ><input type="checkbox" value="Monday" checked /> Monday</label
+              >
+              <label
+                ><input type="checkbox" value="Tuesday" checked />
+                Tuesday</label
+              >
+              <label
+                ><input type="checkbox" value="Wednesday" checked />
+                Wednesday</label
+              >
+              <label
+                ><input type="checkbox" value="Thursday" checked />
+                Thursday</label
+              >
+              <label
+                ><input type="checkbox" value="Friday" checked /> Friday</label
+              >
+              <label
+                ><input type="checkbox" value="Saturday" checked />
+                Saturday</label
+              >
+              <label
+                ><input type="checkbox" value="Sunday" checked /> Sunday</label
+              >
+            </div>
           </div>
-          <hr class="line-separator" />
-          <div class="month">
-            <h3>Month</h3>
-            <label><input type="checkbox" value="January" /> January</label>
-            <label><input type="checkbox" value="February" /> February</label>
-            <label><input type="checkbox" value="March" /> March</label>
-            <label><input type="checkbox" value="April" /> April</label>
-            <label><input type="checkbox" value="May" /> May</label>
-            <label><input type="checkbox" value="June" /> June</label>
-          </div>
-          <hr class="line-separator" />
-          <div class="day">
-            <h3>Day</h3>
-            <label><input type="checkbox" value="Monday" /> Monday</label>
-            <label><input type="checkbox" value="Tuesday" /> Tuesday</label>
-            <label><input type="checkbox" value="Wednesday" /> Wednesday</label>
-            <label><input type="checkbox" value="Thursday" /> Thursday</label>
-            <label><input type="checkbox" value="Friday" /> Friday</label>
-            <label><input type="checkbox" value="Saturday" /> Saturday</label>
-            <label><input type="checkbox" value="Sunday" /> Sunday</label>
+          <div class="data">
+            <canvas id="trendData"></canvas>
           </div>
         </div>
-        <div class="data"></div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      window.onload = function () {
+        const ctx = document.getElementById("trendData").getContext("2d");
+    
+        // Function to generate a random color
+        function getRandomColor() {
+          const letters = "0123456789ABCDEF";
+          let color = "#";
+          for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+          }
+          return color;
+        }
+    
+        // Fetch the data
+        fetch("data/trend_data.json")
+          .then((response) => response.json())
+          .then((originalData) => {
+            // Function to update the chart
+            function updateChart(data) {
+              // Get unique product types
+              const productTypes = [
+                ...new Set(data.map((item) => item.productType)),
+              ];
+    
+              // Prepare the datasets
+              const datasets = productTypes.map((productType) => {
+                // Filter data for this product type
+                const productData = data.filter(
+                  (item) => item.productType === productType
+                );
+    
+                // Sum up totalQty for each dayOfWeek
+                const totalQtyByDay = [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ].map((dayOfWeek) => {
+                  const dayData = productData.filter(
+                    (item) => item.dayOfWeek === dayOfWeek
+                  );
+                  const totalQty = dayData.reduce(
+                    (sum, item) => sum + item.totalQty,
+                    0
+                  );
+                  return totalQty;
+                });
+    
+                return {
+                  label: productType,
+                  data: totalQtyByDay,
+                  backgroundColor: getRandomColor(),
+                  borderColor: getRandomColor(),
+                  borderWidth: 1,
+                };
+              });
+    
+              // Create or update the chart
+              if (window.chart) {
+                window.chart.data.datasets = datasets;
+                window.chart.update();
+              } else {
+                window.chart = new Chart(ctx, {
+                  type: "bar",
+                  data: {
+                    labels: [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday",
+                      "Saturday",
+                      "Sunday",
+                    ], // Use days of week as labels
+                    datasets: datasets,
+                  },
+                  options: {
+                    indexAxis: "y", // Make y-axis represent the categories
+                    scales: {
+                      x: {
+                        stacked: true,
+                      },
+                      y: {
+                        stacked: true,
+                      },
+                    },
+                  },
+                });
+              }
+            }
+    
+            // Initial chart creation
+            updateChart(originalData);
+    
+            // Add event listener to each checkbox
+            document
+              .querySelectorAll('input[type="checkbox"]')
+              .forEach((checkbox) => {
+                checkbox.addEventListener("change", () => {
+                  // Filter out the data that matches the unchecked property
+                  const filteredData = originalData.filter((item) => {
+                    if (!document.querySelector(`input[value="${item.dayOfWeek}"]`).checked) {
+                      return false;
+                    }
+                    if (!document.querySelector(`input[value="${item.monthOfYear}"]`).checked) {
+                      return false;
+                    }
+                    if (!document.querySelector(`input[value="${item.productCategory}"]`).checked) {
+                      return false;
+                    }
+                    return true;
+                  });
+    
+                  // Update the chart
+                  updateChart(filteredData);
+                });
+              });
+          })
+          .catch((error) => console.error("Error:", error));
+      };
+    </script>
+    
 
     <div id="footer"></div>
     <script src="footer.js"></script>
-
+    <script>
+      src = "chart.js";
+    </script>
   </body>
 </html>

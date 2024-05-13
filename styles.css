@@ -141,6 +141,12 @@ body {
     flex-grow: 1; 
 }
 
+.index-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
 .our-members {
     width: 100%;
     height: fit-content;

@@ -116,16 +116,29 @@
             </div>
           </div>
           <div class="data">
+            <h3>Daily Transaction per Product Type</h3>
             <div class="trendDay">
               <canvas id="trendDay"></canvas>
             </div>
-          </div>
+            <div class="transactionAndRevenue">
+              <h3>Total Transactions per Product Type</h3>
+              <div class="totalTransaction">
+                <canvas id="totalTransaction"></canvas>
+              </div>
+              <h3>Total Revenue per Product Type</h3>
+              <div class="totalRevenue">
+                <canvas id="totalRevenue"></canvas>
+              </div>
+            </div>
+          </div>                    
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="data/colors.js"></script>
     <script type="module" src="script/trendDay.js"></script>
+    <script type="module" src="script/totalTransaction.js"></script>
+    <script type="module" src="script/totalRevenue.js"></script>
 
     <div id="footer"></div>
     <script src="footer.js"></script>

@@ -4,23 +4,28 @@ const fs = require('fs');
 let data = JSON.parse(fs.readFileSync('data/new_transaction.json', 'utf8'));
 
 // The data service
+// The data service
 let dataService = {
-    // A function that returns the total transaction quantity for each product type on each day of the week
-    getDailyProductQty: function() {
-        let dailyProductQty = {};
+    // A function that returns the total transaction quantity and total revenue for each product type on each day of the week
+    getDailyProductQtyAndRevenue: function() {
+        let dailyProductQtyAndRevenue = {};
         data.forEach(function(transaction) {
             let dayOfWeek = new Date(transaction.transaction_date).toLocaleString('en-US', { weekday: 'long' });
             let monthOfYear = new Date(transaction.transaction_date).toLocaleString('en-US', { month: 'long' });
             let key = dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
-            if (dailyProductQty[key]) {
-                dailyProductQty[key] += parseInt(transaction.transaction_qty);
+            if (dailyProductQtyAndRevenue[key]) {
+                dailyProductQtyAndRevenue[key].totalQty += parseInt(transaction.transaction_qty);
+                dailyProductQtyAndRevenue[key].totalRevenue += parseInt(transaction.transaction_qty) * parseFloat(transaction.unit_price);
             } else {
-                dailyProductQty[key] = parseInt(transaction.transaction_qty);
+                dailyProductQtyAndRevenue[key] = {
+                    totalQty: parseInt(transaction.transaction_qty),
+                    totalRevenue: parseInt(transaction.transaction_qty) * parseFloat(transaction.unit_price)
+                };
             }
         });
 
         // Convert the results to an array and sort by day of the week
-        let dailyProductQtyArray = Object.entries(dailyProductQty).map(function(entry) {
+        let dailyProductQtyAndRevenueArray = Object.entries(dailyProductQtyAndRevenue).map(function(entry) {
             let [dayOfWeek, monthOfYear, productCategory, productType, storeLocation] = entry[0].split('|');
             return {
                 dayOfWeek: dayOfWeek,
@@ -28,22 +33,23 @@ let dataService = {
                 productCategory: productCategory,
                 productType: productType,
                 storeLocation: storeLocation,
-                totalQty: entry[1]
+                totalQty: entry[1].totalQty,
+                totalRevenue: Math.round(entry[1].totalRevenue)  // round to nearest integer
             };
         });
-        dailyProductQtyArray.sort(function(a, b) {
+        dailyProductQtyAndRevenueArray.sort(function(a, b) {
             let daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
             return daysOfWeek.indexOf(a.dayOfWeek) - daysOfWeek.indexOf(b.dayOfWeek);
         });
 
-        return dailyProductQtyArray;
+        return dailyProductQtyAndRevenueArray;
     },
 
     // Other functions for other queries...
 };
 
 // Get the processed data
-const trendData = dataService.getDailyProductQty();
+const trendData = dataService.getDailyProductQtyAndRevenue();
 
 // Convert data to JSON string
 const trendDataJSON = JSON.stringify(trendData, null, 2);

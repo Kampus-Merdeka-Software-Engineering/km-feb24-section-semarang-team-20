@@ -11,7 +11,7 @@ let dataService = {
         data.forEach(function(transaction) {
             let dayOfWeek = new Date(transaction.transaction_date).toLocaleString('en-US', { weekday: 'long' });
             let monthOfYear = new Date(transaction.transaction_date).toLocaleString('en-US', { month: 'long' });
-            let key = dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type;
+            let key = dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
             if (dailyProductQty[key]) {
                 dailyProductQty[key] += parseInt(transaction.transaction_qty);
             } else {
@@ -21,12 +21,13 @@ let dataService = {
 
         // Convert the results to an array and sort by day of the week
         let dailyProductQtyArray = Object.entries(dailyProductQty).map(function(entry) {
-            let [dayOfWeek, monthOfYear, productCategory, productType] = entry[0].split('|');
+            let [dayOfWeek, monthOfYear, productCategory, productType, storeLocation] = entry[0].split('|');
             return {
                 dayOfWeek: dayOfWeek,
                 monthOfYear: monthOfYear,
                 productCategory: productCategory,
                 productType: productType,
+                storeLocation: storeLocation,
                 totalQty: entry[1]
             };
         });

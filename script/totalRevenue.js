@@ -58,13 +58,27 @@ window.addEventListener('load', function() {
           data: chartData,
           options: {
             plugins: {
-                legend: {
-                  labels: {
-                    usePointStyle: true,
-                    pointStyle: 'circle',
-                  },
-                }
+              datalabels: {
+                formatter: (value, ctx) => {
+                  const label = ctx.chart.data.labels[ctx.dataIndex];
+                  return `${label}: ${value}`;
+                },
+                color: "#fff",
+            font: {
+              weight: "bold",
+            },
+            anchor: 'end',
+            align: 'end',
+               },
+              legend: {
+                display: true,
+                position: 'right',
+                labels: {
+                  usePointStyle: true,
+                  pointStyle: 'circle',
+                },
               }
+            }
           },
         });
       }

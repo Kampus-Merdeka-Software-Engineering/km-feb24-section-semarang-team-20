@@ -1,6 +1,7 @@
 import productColors from '../data/colors.js';
+import { filterData } from './filter.js';
 
-window.onload = function () {
+window.addEventListener('load', function() {
     const ctx = document.getElementById("trendDay").getContext("2d");
     
     fetch("data/trend_data.json")
@@ -65,11 +66,11 @@ window.onload = function () {
                   "Friday",
                   "Saturday",
                   "Sunday",
-                ], // Use days of week as labels
+                ],
                 datasets: datasets,
               },
               options: {
-                indexAxis: "y", // Make y-axis represent the categories
+                indexAxis: "y", 
                 scales: {
                   x: {
                     stacked: true,
@@ -94,21 +95,7 @@ window.onload = function () {
           .forEach((checkbox) => {
             checkbox.addEventListener("change", () => {
               // Filter out the data that matches the unchecked property
-              const filteredData = originalData.filter((item) => {
-                if (!document.querySelector(`input[value="${item.dayOfWeek}"]`).checked) {
-                  return false;
-                }
-                if (!document.querySelector(`input[value="${item.monthOfYear}"]`).checked) {
-                  return false;
-                }
-                if (!document.querySelector(`input[value="${item.productCategory}"]`).checked) {
-                  return false;
-                }
-                if (!document.querySelector(`input[value="${item.storeLocation}"]`).checked) {
-                  return false;
-                }
-                return true;
-              });
+              const filteredData = filterData(originalData);
   
               // Update the chart
               updateChart(filteredData);
@@ -127,4 +114,4 @@ window.onload = function () {
 
         window.chart.resize();
     });
-};
+});

@@ -149,7 +149,7 @@ body {
   flex-grow: 1;
   position: relative;
   border: solid 1px black;
-  min-height: 500px; /* Adjust this value as needed */
+  min-height: 500px;
 }
 
 .transactionAndRevenue {
@@ -162,6 +162,11 @@ body {
   position: relative;
   width: 50%;
   border: solid 1px black;
+  
+}
+
+#totalTransaction, #totalRevenue {
+  max-height: 500px;
 }
 
 .index-container {

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
   </head>
   <body>
     <div id="index">
@@ -58,11 +60,12 @@
                 Astoria</label
               >
               <label
-                ><input type="checkbox" value="Hell's Kitchen" checked />
-                Hell's Kitchen</label
+                ><input type="checkbox" value="Hell's Kitchen" checked /> Hell's
+                Kitchen</label
               >
               <label
-                ><input type="checkbox" value="Lower Manhattan" checked /> Lower Manhattan</label
+                ><input type="checkbox" value="Lower Manhattan" checked /> Lower
+                Manhattan</label
               >
             </div>
             <hr class="line-separator" />
@@ -121,24 +124,27 @@
               <canvas id="trendDay"></canvas>
             </div>
             <div class="transactionAndRevenue">
-              <h3>Total Transactions per Product Type</h3>
               <div class="totalTransaction">
+                <h3>Total Transactions per Product Type</h3>
                 <canvas id="totalTransaction"></canvas>
               </div>
-              <h3>Total Revenue per Product Type</h3>
               <div class="totalRevenue">
+                <h3>Total Revenue per Product Type</h3>
                 <canvas id="totalRevenue"></canvas>
               </div>
             </div>
-          </div>                    
+          </div>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="module" src="data/colors.js"></script>
     <script type="module" src="script/trendDay.js"></script>
     <script type="module" src="script/totalTransaction.js"></script>
     <script type="module" src="script/totalRevenue.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
 
     <div id="footer"></div>
     <script src="footer.js"></script>

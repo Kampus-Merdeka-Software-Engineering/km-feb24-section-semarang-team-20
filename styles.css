@@ -145,6 +145,13 @@ body {
   border: solid 1px black;
 }
 
+.trend h2,
+.distribution h2 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
 .trendDay {
   flex-grow: 1;
   position: relative;

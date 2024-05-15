@@ -1,4 +1,4 @@
-import productColors from '../data/colors.js';
+import productColors from "../colors.js";
 import { filterData } from './filter.js';
 
 window.addEventListener('load', function() {

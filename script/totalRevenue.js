@@ -1,5 +1,5 @@
 import { filterData } from './filter.js';
-import productColors from "../data/colors.js";
+import productColors from "../colors.js";
 
 window.addEventListener('load', function() {
   let revenueChart; // Declare revenueChart variable outside the updateChart function
@@ -58,18 +58,34 @@ window.addEventListener('load', function() {
           data: chartData,
           options: {
             plugins: {
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    let label = context.label || '';
+                    let value = context.parsed;
+                    let sum = context.dataset.data.reduce((a, b) => a + b, 0);
+                    let percentage = ((value * 100) / sum).toFixed(2) + '%';
+                    return `${label}: ${value} (${percentage})`;
+                  }
+                }
+              },
               datalabels: {
                 formatter: (value, ctx) => {
-                  const label = ctx.chart.data.labels[ctx.dataIndex];
-                  return `${label}: ${value}`;
+                  let sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                  let percentage = (value * 100 / sum).toFixed(2) + "%";
+                  return percentage;
                 },
                 color: "#fff",
-            font: {
-              weight: "bold",
-            },
-            anchor: 'end',
-            align: 'end',
-               },
+                font: {
+                  weight: "bold",
+                },
+                display: function(context) {
+                  let value = context.dataset.data[context.dataIndex];
+                  let sum = context.dataset.data.reduce((a, b) => a + b, 0);
+                  let percentage = (value * 100 / sum);
+                  return percentage > 5; 
+                },
+              },
               legend: {
                 display: true,
                 position: 'right',
@@ -77,9 +93,11 @@ window.addEventListener('load', function() {
                   usePointStyle: true,
                   pointStyle: 'circle',
                 },
+                onClick: null
               }
             }
           },
+          plugins: [ChartDataLabels],
         });
       }
 

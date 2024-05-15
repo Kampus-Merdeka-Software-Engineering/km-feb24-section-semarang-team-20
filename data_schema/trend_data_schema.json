@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "dayOfWeek": {
+        "type": "string"
+      },
+      "monthOfYear": {
+        "type": "string"
+      },
+      "productCategory": {
+        "type": "string"
+      },
+      "productType": {
+        "type": "string"
+      },
+      "storeLocation": {
+        "type": "string"
+      },
+      "totalQty": {
+        "type": "integer"
+      },
+      "totalRevenue": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "dayOfWeek",
+      "monthOfYear",
+      "productCategory",
+      "productType",
+      "storeLocation",
+      "totalQty",
+      "totalRevenue"
+    ]
+  }

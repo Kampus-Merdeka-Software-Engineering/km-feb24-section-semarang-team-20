@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "transaction_id": {
+        "type": "string"
+      },
+      "transaction_date": {
+        "type": "string"
+      },
+      "transaction_time": {
+        "type": "string"
+      },
+      "transaction_qty": {
+        "type": "string"
+      },
+      "store_id": {
+        "type": "string"
+      },
+      "store_location": {
+        "type": "string"
+      },
+      "product_id": {
+        "type": "string"
+      },
+      "unit_price": {
+        "type": "string"
+      },
+      "product_category": {
+        "type": "string"
+      },
+      "product_type": {
+        "type": "string"
+      },
+      "product_detail": {
+        "type": "string"
+      },
+      "outliers": {
+        "type": "string"
+      },
+      "day_of_week": {
+        "type": "string"
+      },
+      "month_of_year": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "transaction_id",
+      "transaction_date",
+      "transaction_time",
+      "transaction_qty",
+      "store_id",
+      "store_location",
+      "product_id",
+      "unit_price",
+      "product_category",
+      "product_type",
+      "product_detail",
+      "outliers",
+      "day_of_week",
+      "month_of_year"
+    ]
+  }

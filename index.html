@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
   </head>
   <body>
     <div id="index">
@@ -119,22 +117,26 @@
             </div>
           </div>
           <div class="data">
-            <h3>Daily Transaction per Product Type</h3>
-            <div class="trendDay">
-              <canvas id="trendDay"></canvas>
-            </div>
-            <div class="transactionAndRevenue">
-              <div class="totalTransaction">
-                <h3>Total Transactions per Product Type</h3>
-                <canvas id="totalTransaction"></canvas>
+            <div class="trend">
+              <h2>Trend</h2>
+              <h3>Daily Transaction per Product Type</h3>
+              <div class="trendDay">
+                <canvas id="trendDay"></canvas>
               </div>
-              <div class="totalRevenue">
-                <h3>Total Revenue per Product Type</h3>
-                <canvas id="totalRevenue"></canvas>
+              <div class="transactionAndRevenue">
+                <div class="totalTransaction">
+                  <h3>Total Transactions per Product Type</h3>
+                  <canvas id="totalTransaction"></canvas>
+                </div>
+                <div class="totalRevenue">
+                  <h3>Total Revenue per Product Type</h3>
+                  <canvas id="totalRevenue"></canvas>
+                </div>
               </div>
             </div>
             <div class="distribution">
-
+              <h2>Distribution</h2>
+              
             </div>
           </div>
         </div>
@@ -145,10 +147,9 @@
     <script type="module" src="script/totalTransaction.js"></script>
     <script type="module" src="script/totalRevenue.js"></script>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 
     <div id="footer"></div>
     <script src="footer.js"></script>

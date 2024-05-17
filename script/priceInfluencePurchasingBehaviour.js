@@ -7,32 +7,32 @@ window.addEventListener('load', function() {
   fetch("data/trend_data.json")
     .then((response) => response.json())
     .then((originalData) => {
-      function updateChart(data) {
-        const groupedData = data.reduce((acc, curr) => {
-          const { productType, totalQty, productTypePriceAvg } = curr;
-
-          if (!acc[productType]) {
-            acc[productType] = {
-              totalQty: 0,
-              productTypePriceAvg: 0,
-            };
-          }
-
-          acc[productType].totalQty += totalQty;
-          acc[productType].productTypePriceAvg += parseFloat(productTypePriceAvg);
-
-          return acc;
-        }, {});
-
-        const datasets = Object.entries(groupedData).map(
-          ([productType, { totalQty, productTypePriceAvg }]) => {
-            return {
-              label: productType,
-              data: [{ x: totalQty, y: productTypePriceAvg / totalQty }],
-              backgroundColor: productColors[productType],
-            };
-          }
-        );
+        function updateChart(data) {
+            const groupedData = data.reduce((acc, curr) => {
+              const { productType, totalQty, productTypePriceAvg } = curr;
+          
+              if (!acc[productType]) {
+                acc[productType] = {
+                  totalQty: 0,
+                  productTypePriceAvg: 0,
+                };
+              }
+          
+              acc[productType].totalQty += totalQty;
+              acc[productType].productTypePriceAvg = parseFloat(productTypePriceAvg);
+          
+              return acc;
+            }, {});
+          
+            const datasets = Object.entries(groupedData).map(
+              ([productType, { totalQty, productTypePriceAvg }]) => {
+                return {
+                  label: productType,
+                  data: [{ x: totalQty, y: productTypePriceAvg }],
+                  backgroundColor: productColors[productType],
+                };
+              }
+            );
 
         if (scatterChart) {
           scatterChart.destroy();
@@ -70,7 +70,7 @@ window.addEventListener('load', function() {
                 callbacks: {
                   label: (context) => {
                     const dataPoint = context.dataset.data[context.dataIndex];
-                    return `${context.dataset.label}: ${dataPoint.x}`;
+                    return `${context.dataset.label}: ${dataPoint.x}, ${dataPoint.y}`;
                   },
                 },
               },

@@ -79,6 +79,17 @@ window.addEventListener('load', function() {
                     stacked: true,
                   },
                 },
+                plugins: {
+                  legend: {
+                    display: true,
+                    position:"top",
+                    labels: {
+                      usePointStyle: true,
+                      pointStyle: 'circle',
+                    },
+                    onClick: null
+                  },
+                },
                 responsive: true,
                 maintainAspectRatio: false,
               },

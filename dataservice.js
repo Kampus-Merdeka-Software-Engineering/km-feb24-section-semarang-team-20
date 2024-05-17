@@ -3,13 +3,26 @@ const fs = require('fs');
 // Load the data into memory
 let data = JSON.parse(fs.readFileSync('data/new_transaction.json', 'utf8'));
 
-// The data service
-// The data service
 let dataService = {
     // A function that returns the total transaction quantity and total revenue for each product type on each day of the week
     getDailyProductQtyAndRevenue: function() {
         let dailyProductQtyAndRevenue = {};
+        let productTypePrices = {}; 
+
         data.forEach(function(transaction) {
+            let productType = transaction.product_type;
+            let unitPrice = parseFloat(transaction.unit_price);
+
+            if (productTypePrices[productType]) {
+                productTypePrices[productType].totalPrice += unitPrice;
+                productTypePrices[productType].count += 1;
+            } else {
+                productTypePrices[productType] = {
+                    totalPrice: unitPrice,
+                    count: 1
+                };
+            }
+
             let dayOfWeek = new Date(transaction.transaction_date).toLocaleString('en-US', { weekday: 'long' });
             let monthOfYear = new Date(transaction.transaction_date).toLocaleString('en-US', { month: 'long' });
             let key = dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
@@ -34,7 +47,8 @@ let dataService = {
                 productType: productType,
                 storeLocation: storeLocation,
                 totalQty: entry[1].totalQty,
-                totalRevenue: Math.round(entry[1].totalRevenue)  // round to nearest integer
+                totalRevenue: Math.round(entry[1].totalRevenue)  
+                
             };
         });
         dailyProductQtyAndRevenueArray.sort(function(a, b) {
@@ -57,9 +71,11 @@ data.forEach(function(transaction) {
 dailyProductQtyAndRevenueArray = dailyProductQtyAndRevenueArray.map(function(item) {
     let productType = item.productType;
     let variations = productVariations[productType];
+    let avgPrice = productTypePrices[productType].totalPrice / productTypePrices[productType].count; // Calculate the average price
     return {
         ...item,
-        product_variations: variations.size
+        product_variations: variations.size,
+        productTypePriceAvg: avgPrice.toFixed(2) // Add the average price to the result
     };
 });
 

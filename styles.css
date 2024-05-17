@@ -209,9 +209,9 @@ body {
 }
 
 .trend h3 {
-  display: block; /* This will make the h3 element take up the full width of its parent, forcing it to a new line */
-  margin-top: 10px; /* Adjust this to change the space above the h3 element */
-  font-size: 20px; /* Adjust this to change the font size of the h3 element */
+  display: block; 
+  margin-top: 10px; 
+  font-size: 20px; 
 }
 
 
@@ -219,6 +219,8 @@ body {
   flex-grow: 1;
   position: relative;
   max-height: 500px;
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .trend {
@@ -439,6 +441,18 @@ footer {
   width: 10px;
   height: 10px; 
   margin-right: 5px;
+}
+
+/* style.css */
+#storeTable {
+  display: block;
+  height: 300px;
+  overflow: auto;
+}
+#storeTable tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 

@@ -1,5 +1,5 @@
 import productColors from "../colors.js";
-import { filterData } from './filter.js';
+import { filterData, addCheckboxEventListeners } from './filter.js';
 
 window.addEventListener('load', function() {
     const ctx = document.getElementById("trendDay").getContext("2d");
@@ -101,17 +101,7 @@ window.addEventListener('load', function() {
         updateChart(originalData);
   
         // Add event listener to each checkbox
-        document
-          .querySelectorAll('input[type="checkbox"]')
-          .forEach((checkbox) => {
-            checkbox.addEventListener("change", () => {
-              // Filter out the data that matches the unchecked property
-              const filteredData = filterData(originalData);
-  
-              // Update the chart
-              updateChart(filteredData);
-            });
-          });
+        addCheckboxEventListeners(updateChart, originalData);
       })
       .catch((error) => console.error("Error:", error));
   

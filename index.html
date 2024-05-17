@@ -134,7 +134,16 @@
             <div class="trend">
               <div class="trendDay">
                 <h3>Daily Transaction per Product Type</h3>
-                <canvas id="trendDay"></canvas>
+                <canvas id="trendDay" style="margin-bottom: 20px;"></canvas>
+                <h3>Leading Store for Each Product Type</h3>
+                <table id="storeTable">
+                  <tr>
+                    <th>Product Type</th>
+                    <th>Store</th>
+                    <th>Transactions</th>
+                    <th>Revenue</th>
+                  </tr>
+                </table>
               </div>
               <div class="transactionAndRevenue">
                 <div class="totalTransaction">
@@ -146,7 +155,7 @@
                   <canvas id="totalRevenue"></canvas>
                 </div>
               </div>
-            </div>            
+            </div>
             <div class="distribution">
               <h2>Distribution</h2>
               <div class="distribution-wrapper">
@@ -167,8 +176,11 @@
                 <div class="price-influence-purchasing-behaviour">
                   <h3>Product Price Influence on Purchasing Behaviour</h3>
                   <canvas id="price-influence-purchasing-behaviour"></canvas>
-                  <div id="js-legend-purchasing-behaviour" class="chart-legend"></div>
-                </div>                
+                  <div
+                    id="js-legend-purchasing-behaviour"
+                    class="chart-legend"
+                  ></div>
+                </div>
               </div>
             </div>
           </div>
@@ -181,7 +193,11 @@
     <script type="module" src="script/totalRevenue.js"></script>
     <script type="module" src="script/productVarietyRevenue.js"></script>
     <script type="module" src="script/productVarietyTransaction.js"></script>
-    <script type="module" src="script/priceInfluencePurchasingBehaviour.js"></script>
+    <script
+      type="module"
+      src="script/priceInfluencePurchasingBehaviour.js"
+    ></script>
+    <script type ="module" src="script/leadingStore.js"></script>
 
     <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>

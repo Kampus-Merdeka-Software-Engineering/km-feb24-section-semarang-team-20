@@ -1,4 +1,4 @@
-import { filterData } from './filter.js';
+import { filterData, addCheckboxEventListeners } from './filter.js';
 import productColors from "../colors.js";
 
 window.addEventListener('load', function() {
@@ -115,15 +115,7 @@ window.addEventListener('load', function() {
 
       updateChart(originalData);
 
-      document
-        .querySelectorAll('input[type="checkbox"]')
-        .forEach((checkbox) => {
-          checkbox.addEventListener("change", () => {
-            const filteredData = filterData(originalData);
-
-            updateChart(filteredData);
-          });
-        });
+      addCheckboxEventListeners(updateChart, originalData);
     })
     .catch((error) => console.error("Error:", error));
 });

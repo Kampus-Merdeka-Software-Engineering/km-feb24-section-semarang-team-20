@@ -143,6 +143,8 @@ body {
   flex-direction: column;
   align-items: stretch;
   border: solid 1px black;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .trend h2,
@@ -162,24 +164,26 @@ body {
 .transactionAndRevenue {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .totalTransaction, .totalRevenue {
   flex-grow: 1;
   position: relative;
-  width: 50%;
+  max-width: 45%;
   border: solid 1px black;
-  
 }
 
 #totalTransaction, #totalRevenue {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .index-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .our-members {
@@ -320,4 +324,62 @@ footer {
         margin-bottom: 5%;
     }
 }
+
+.distribution {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.distribution-wrapper {
+  display: flex; /* Display the wrapper div items in a row */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.product-variety-revenue,
+.product-variety-transaction,
+.price-influence-purchasing-behaviour {
+  flex: 1 0 46%; /* Each div takes up at least 33% of the space */
+  max-width: 46%; /* Minimum width of 33% */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.product-variety-revenue {
+  margin-right: 2%;
+}
+
+.product-variety-transaction {
+ margin-left: 2%
+}
+
+.legend-container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+#js-legend-revenue,#js-legend-transaction {
+  list-style: none;
+  width: 100%; 
+  max-height: 100%;
+  overflow-x: auto; 
+  padding: 0;
+  margin: 0;
+  white-space: nowrap; 
+  display: flex; 
+}
+
+#js-legend-revenue li, #js-legend-transaction li {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 10px; 
+}
+
+#js-legend-revenue li span, #js-legend-transaction li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px; 
+  margin-right: 5px;
+}
+
+
 

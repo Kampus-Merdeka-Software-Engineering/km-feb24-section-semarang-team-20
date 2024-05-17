@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <div id="index">
@@ -136,18 +137,45 @@
             </div>
             <div class="distribution">
               <h2>Distribution</h2>
-              
+              <div class="distribution-wrapper">
+                <div class="product-variety-revenue">
+                  <h3>Product Variety on Revenue</h3>
+                  <canvas id="product-variety-revenue"></canvas>
+                  <div class="legend-container">
+                    <div id="js-legend-revenue" class="chart-legend"></div>
+                  </div>
+                </div>
+                <div class="product-variety-transaction">
+                  <h3>Product Variety on Transaction</h3>
+                  <canvas id="product-variety-transaction"></canvas>
+                  <div class="legend-container">
+                    <div id="js-legend-transaction" class="chart-legend"></div>
+                  </div>
+                </div>
+                <div class="price-influence-purchasing-behaviour">
+                  <h3>Product Price Influence on Purchasing Behaviour</h3>
+                  <canvas id="price-influence-purchasing-behaviour"></canvas>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script type="module" src="data/colors.js"></script>
+    <script type="module" src="colors.js"></script>
     <script type="module" src="script/trendDay.js"></script>
     <script type="module" src="script/totalTransaction.js"></script>
     <script type="module" src="script/totalRevenue.js"></script>
+    <script type="module" src="script/productVarietyRevenue.js"></script>
+    <script type="module" src="script/productVarietyTransaction.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- 
+    
+    <script
+      type="module"
+      src="script/priceInfluencePurchasingBehaviour.js"
+    ></script> -->
+
     <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 

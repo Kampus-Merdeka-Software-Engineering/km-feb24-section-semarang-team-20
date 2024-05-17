@@ -42,6 +42,28 @@ let dataService = {
             return daysOfWeek.indexOf(a.dayOfWeek) - daysOfWeek.indexOf(b.dayOfWeek);
         });
 
+        // Calculate the product variations
+let productVariations = {};
+data.forEach(function(transaction) {
+    let productType = transaction.product_type;
+    let productDetail = transaction.product_detail;
+    if (!productVariations[productType]) {
+        productVariations[productType] = new Set();
+    }
+    productVariations[productType].add(productDetail);
+});
+
+// Update the dailyProductQtyAndRevenueArray with product variations
+dailyProductQtyAndRevenueArray = dailyProductQtyAndRevenueArray.map(function(item) {
+    let productType = item.productType;
+    let variations = productVariations[productType];
+    return {
+        ...item,
+        product_variations: variations.size
+    };
+});
+
+
         return dailyProductQtyAndRevenueArray;
     },
 

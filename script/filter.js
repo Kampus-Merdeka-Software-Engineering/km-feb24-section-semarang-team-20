@@ -19,6 +19,21 @@ export function filterData(originalData) {
   });
 }
 
+export function updateSummary(originalData) {
+  const filteredData = filterData(originalData);
+
+  let totalQty = 0;
+  let totalRevenue = 0;
+
+  filteredData.forEach(item => {
+    totalQty += item.totalQty;
+    totalRevenue += item.totalRevenue;
+  });
+
+  document.querySelector('.box-container .box:nth-child(1) p').textContent = totalQty.toLocaleString();
+  document.querySelector('.box-container .box:nth-child(2) p').textContent = totalRevenue.toLocaleString();
+}
+
 export function addCheckboxEventListeners(updateDataDisplay, originalData) {
   document
     .querySelectorAll('input[type="checkbox"]')
@@ -27,9 +42,11 @@ export function addCheckboxEventListeners(updateDataDisplay, originalData) {
         const filteredData = filterData(originalData);
         updateDataDisplay(filteredData);
         updateCount();
+        updateSummary(originalData);
       });
     });
 
   // Call updateCount initially to set the counts
   updateCount();
+  updateSummary(originalData);
 }

@@ -104,15 +104,4 @@ window.addEventListener('load', function() {
         addCheckboxEventListeners(updateChart, originalData);
       })
       .catch((error) => console.error("Error:", error));
-  
-    // Resize function
-    window.addEventListener('resize', () => {
-        let chartElement = document.getElementById('trendDay');
-        let parent = chartElement.parentElement;
-
-        chartElement.width = parent.offsetWidth;
-        chartElement.height = parent.offsetHeight;
-
-        window.chart.resize();
-    });
 });

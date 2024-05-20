@@ -134,9 +134,9 @@
             <div class="trend">
               <div class="trendDay">
                 <h3>Daily Transaction per Product Type</h3>
-                <canvas id="trendDay" style="margin-bottom: 20px;"></canvas>
+                <canvas id="trendDay" style="margin-bottom: 20px"></canvas>
                 <h3>Leading Store for Each Product Type</h3>
-                <table id="storeTable">
+                <table id="storeTable" style="margin-bottom: 20px;">
                   <tr>
                     <th>Product Type</th>
                     <th>Store</th>
@@ -144,6 +144,8 @@
                     <th>Revenue</th>
                   </tr>
                 </table>
+                <h3>Average Transaction Per Hour</h3>
+                <canvas id="trendHour"></canvas>
               </div>
               <div class="transactionAndRevenue">
                 <div class="totalTransaction">
@@ -197,7 +199,8 @@
       type="module"
       src="script/priceInfluencePurchasingBehaviour.js"
     ></script>
-    <script type ="module" src="script/leadingStore.js"></script>
+    <script type="module" src="script/leadingStore.js"></script>
+    <script type="module" src="script/trendHour.js"></script>
 
     <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>

@@ -198,7 +198,7 @@ body {
   border: solid 1px black;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 10px; /* Adjust this value to increase or decrease the space */
+  padding: 10px; 
 }
 
 .trend h2,
@@ -216,18 +216,20 @@ body {
 
 
 .trendDay {
-  flex-grow: 1;
   position: relative;
-  max-height: 500px;
+  max-height: fit-content;
   flex-direction: column;
   margin-right: 20px;
+}
+
+#trendDay{
+  max-height: 500px !important;
+  max-width: 1000px;
 }
 
 .trend {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .transactionAndRevenue {
@@ -393,16 +395,16 @@ footer {
 }
 
 .distribution-wrapper {
-  display: flex; /* Display the wrapper div items in a row */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  display: flex; 
+  flex-wrap: wrap; 
 }
 
 .product-variety-revenue,
 .product-variety-transaction,
 .price-influence-purchasing-behaviour {
-  flex: 1 0 46%; /* Each div takes up at least 33% of the space */
-  max-width: 46%; /* Minimum width of 33% */
-  box-sizing: border-box; /* Include padding in the width calculation */
+  flex: 1 0 46%; 
+  max-width: 46%; 
+  box-sizing: border-box; 
 }
 
 .product-variety-revenue {

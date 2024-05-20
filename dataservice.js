@@ -1,17 +1,20 @@
 const fs = require('fs');
 
-// Load the data into memory
+// Read the transaction data
 let data = JSON.parse(fs.readFileSync('data/new_transaction.json', 'utf8'));
 
 let dataService = {
-    // A function that returns the total transaction quantity and total revenue for each product type on each day of the week
+
     getDailyProductQtyAndRevenue: function() {
         let dailyProductQtyAndRevenue = {};
-        let productTypePrices = {}; 
+        let productTypePrices = {};
+        let hourlyTransactions = {};
 
         data.forEach(function(transaction) {
             let productType = transaction.product_type;
             let unitPrice = parseFloat(transaction.unit_price);
+            let transactionHour = new Date(transaction.transaction_date + 'T' + transaction.transaction_time).getHours();
+            let transactionQty = parseInt(transaction.transaction_qty);
 
             if (productTypePrices[productType]) {
                 productTypePrices[productType].totalPrice += unitPrice;
@@ -23,76 +26,96 @@ let dataService = {
                 };
             }
 
-            let dayOfWeek = new Date(transaction.transaction_date).toLocaleString('en-US', { weekday: 'long' });
-            let monthOfYear = new Date(transaction.transaction_date).toLocaleString('en-US', { month: 'long' });
-            let key = dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
+            let transactionDate = transaction.transaction_date;
+            let dayOfWeek = new Date(transactionDate).toLocaleString('en-US', { weekday: 'long' });
+            let monthOfYear = new Date(transactionDate).toLocaleString('en-US', { month: 'long' });
+            let key = transactionDate + '|' + dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
             if (dailyProductQtyAndRevenue[key]) {
-                dailyProductQtyAndRevenue[key].totalQty += parseInt(transaction.transaction_qty);
-                dailyProductQtyAndRevenue[key].totalRevenue += parseInt(transaction.transaction_qty) * parseFloat(transaction.unit_price);
+                dailyProductQtyAndRevenue[key].totalQty += transactionQty;
+                dailyProductQtyAndRevenue[key].totalRevenue += transactionQty * unitPrice;
             } else {
                 dailyProductQtyAndRevenue[key] = {
-                    totalQty: parseInt(transaction.transaction_qty),
-                    totalRevenue: parseInt(transaction.transaction_qty) * parseFloat(transaction.unit_price)
+                    transactionDate: transactionDate,
+                    totalQty: transactionQty,
+                    totalRevenue: transactionQty * unitPrice
                 };
+            }
+
+            let hourlyKey = transactionDate + '|' + dayOfWeek + '|' + monthOfYear + '|' + transaction.product_category + '|' + transaction.product_type + '|' + transaction.store_location;
+
+            if (!hourlyTransactions[hourlyKey]) {
+                hourlyTransactions[hourlyKey] = {};
+            }
+            if (hourlyTransactions[hourlyKey][transactionHour]) {
+                hourlyTransactions[hourlyKey][transactionHour] += transactionQty;
+            } else {
+                hourlyTransactions[hourlyKey][transactionHour] = transactionQty;
             }
         });
 
-        // Convert the results to an array and sort by day of the week
         let dailyProductQtyAndRevenueArray = Object.entries(dailyProductQtyAndRevenue).map(function(entry) {
-            let [dayOfWeek, monthOfYear, productCategory, productType, storeLocation] = entry[0].split('|');
+            let [transactionDate, dayOfWeek, monthOfYear, productCategory, productType, storeLocation] = entry[0].split('|');
             return {
+                transactionDate: transactionDate,
                 dayOfWeek: dayOfWeek,
                 monthOfYear: monthOfYear,
                 productCategory: productCategory,
                 productType: productType,
                 storeLocation: storeLocation,
                 totalQty: entry[1].totalQty,
-                totalRevenue: Math.round(entry[1].totalRevenue)  
-                
+                totalRevenue: Math.round(entry[1].totalRevenue)
             };
         });
+
         dailyProductQtyAndRevenueArray.sort(function(a, b) {
             let daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
             return daysOfWeek.indexOf(a.dayOfWeek) - daysOfWeek.indexOf(b.dayOfWeek);
         });
 
-        // Calculate the product variations
-let productVariations = {};
-data.forEach(function(transaction) {
-    let productType = transaction.product_type;
-    let productDetail = transaction.product_detail;
-    if (!productVariations[productType]) {
-        productVariations[productType] = new Set();
-    }
-    productVariations[productType].add(productDetail);
-});
+        let productVariations = {};
+        data.forEach(function(transaction) {
+            let productType = transaction.product_type;
+            let productDetail = transaction.product_detail;
+            if (!productVariations[productType]) {
+                productVariations[productType] = new Set();
+            }
+            productVariations[productType].add(productDetail);
+        });
 
-// Update the dailyProductQtyAndRevenueArray with product variations
-dailyProductQtyAndRevenueArray = dailyProductQtyAndRevenueArray.map(function(item) {
-    let productType = item.productType;
-    let variations = productVariations[productType];
-    let avgPrice = productTypePrices[productType].totalPrice / productTypePrices[productType].count; // Calculate the average price
-    return {
-        ...item,
-        product_variations: variations.size,
-        productTypePriceAvg: avgPrice.toFixed(2) // Add the average price to the result
-    };
-});
+        dailyProductQtyAndRevenueArray = dailyProductQtyAndRevenueArray.map(function(item) {
+            let productType = item.productType;
+            let variations = productVariations[productType];
+            let avgPrice = productTypePrices[productType].totalPrice / productTypePrices[productType].count;
+            let key = item.transactionDate + '|' + item.dayOfWeek + '|' + item.monthOfYear + '|' + item.productCategory + '|' + item.productType + '|' + item.storeLocation;
+            item.hourlyTransactions = hourlyTransactions[key] || {};
 
+            let totalTransactionsInRange = 0;
+            for (let i = 6; i <= 20; i++) {
+                if (!item.hourlyTransactions[i]) {
+                    item.hourlyTransactions[i] = 0;
+                }
+                totalTransactionsInRange += item.hourlyTransactions[i];
+            }
+
+            let averageTransactionsPerHour = totalTransactionsInRange / 15;
+
+            return {
+                ...item,
+                product_variations: variations.size,
+                productTypePriceAvg: avgPrice.toFixed(2),
+                averageTransactionsPerHour: averageTransactionsPerHour.toFixed(2)
+            };
+        });
 
         return dailyProductQtyAndRevenueArray;
     },
 
-    // Other functions for other queries...
 };
 
-// Get the processed data
 const trendData = dataService.getDailyProductQtyAndRevenue();
 
-// Convert data to JSON string
 const trendDataJSON = JSON.stringify(trendData, null, 2);
 
-// Write JSON string to a new file named trend_data.json in the data directory
 fs.writeFile('data/trend_data.json', trendDataJSON, 'utf8', (err) => {
   if (err) {
     console.error('Error writing file:', err);

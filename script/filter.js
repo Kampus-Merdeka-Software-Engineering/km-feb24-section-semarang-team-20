@@ -1,3 +1,13 @@
+function updateCount() {
+  const dropdowns = document.querySelectorAll('.dropdown');
+  dropdowns.forEach(dropdown => {
+    const checkboxes = dropdown.querySelectorAll('input[type="checkbox"]');
+    const countSpan = dropdown.querySelector('.count');
+    const checkedCount = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
+    countSpan.textContent = `(${checkedCount} selected)`;
+  });
+}
+
 export function filterData(originalData) {
   return originalData.filter((item) => {
     const dayOfWeekChecked = document.querySelector(`input[value="${item.dayOfWeek}"]`).checked;
@@ -16,6 +26,10 @@ export function addCheckboxEventListeners(updateDataDisplay, originalData) {
       checkbox.addEventListener("change", () => {
         const filteredData = filterData(originalData);
         updateDataDisplay(filteredData);
+        updateCount();
       });
     });
+
+  // Call updateCount initially to set the counts
+  updateCount();
 }

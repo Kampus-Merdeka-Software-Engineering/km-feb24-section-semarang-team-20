@@ -141,6 +141,18 @@ body {
   width: 100%;
   text-align: left;
   border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.count {
+  margin-left: auto;
 }
 
 .dropdown-content {

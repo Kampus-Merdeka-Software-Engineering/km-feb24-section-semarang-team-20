@@ -10,7 +10,31 @@ body {
     background-color: #FFEDFF;
     
   }
-  
+
+.landing-page{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.start{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: #333333;
+}
+
+.start a:hover{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
   .topnav {
     overflow: hidden;
     background-color: #333;

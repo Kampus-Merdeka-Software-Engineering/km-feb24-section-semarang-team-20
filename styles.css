@@ -93,6 +93,7 @@ body {
     border-radius: 15px;
     background-color: white;
     text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
   }
   
   .box h3, .box p {
@@ -259,8 +260,13 @@ body {
 }
 
 #trendDay{
-  max-height: 500px !important;
-  max-width: 1000px;
+  max-height: 300px !important;
+  max-width: 600px;
+}
+
+#trendHour{
+  max-height: 300px !important;
+  max-width: 600px;
 }
 
 .trend {
@@ -283,7 +289,8 @@ body {
 }
 
 #totalTransaction, #totalRevenue {
-  max-height: 400px;
+  max-height: 300px !important;
+  max-width: 400px;
 }
 
 .our-members {

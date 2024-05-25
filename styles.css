@@ -323,7 +323,8 @@ body {
     border-bottom: 10px solid transparent; 
 }
   
-  
+
+
 header {
     background-color: #F2F7F5;
     color: #333;
@@ -341,24 +342,34 @@ nav a {
     text-decoration: none;
 }
 
-nav a.active {
-    text-decoration: underline;
-    font-weight: bold;
+.menu a:visited {
+  color: inherit;  
 }
 
-
-a:hover {
-    text-decoration: underline;
+.menu a {
+  margin-right: 20px; /* Adjust this value to increase or decrease the margin */
 }
+
+.active-link {
+  font-weight: bold;
+  color: black;
+}
+
 
 .logo-header {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
+
 
 .section-name{
     text-align: left;
-    line-height:0px;
+}
+
+.section-name h4 {
+  margin: 0; 
+  padding: 0; 
 }
 
 .menu {

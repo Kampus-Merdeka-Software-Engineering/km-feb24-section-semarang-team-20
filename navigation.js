@@ -13,12 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
 function highlightActiveLink() {
     var navLinks = document.querySelectorAll('.menu a');
     var currentPage = window.location.href.split('/').pop();
-
+  
     navLinks.forEach(function(link) {
-        var linkPage = link.getAttribute('href');
-
-        if (linkPage === currentPage) {
-            link.style.textDecoration = 'underline';
-        }
+      var linkPage = link.getAttribute('href');
+  
+      link.classList.remove('active-link');
+  
+      if (linkPage === currentPage || (linkPage === 'index.html' && currentPage === '')) {
+        link.classList.add('active-link');
+      }
     });
-}
+  }
+  

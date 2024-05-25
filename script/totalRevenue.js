@@ -82,7 +82,7 @@ window.addEventListener('load', function() {
                 },
               },
               legend: {
-                display: true,
+                display: false,
                 position: 'right',
                 labels: {
                   usePointStyle: true,

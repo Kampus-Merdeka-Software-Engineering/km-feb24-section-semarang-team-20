@@ -87,20 +87,21 @@ window.addEventListener('load', function() {
           },
         });
 
-        var legendContainer = document.getElementById('js-legend-purchasing-behaviour');
-        legendContainer.innerHTML = ''; // Clear the current legend
-        scatterChart.data.datasets.forEach((dataset, i) => {
-          var legendItem = document.createElement('li');
-          var colorBox = document.createElement('span');
-          colorBox.style.backgroundColor = dataset.backgroundColor;
-          colorBox.style.display = 'inline-block';
-          colorBox.style.width = '10px'; /* Adjust this to change the width of the color box */
-          colorBox.style.height = '10px'; /* Adjust this to change the height of the color box */
-          colorBox.style.marginRight = '5px';
-          legendItem.appendChild(colorBox);
-          legendItem.appendChild(document.createTextNode(dataset.label));
-          legendContainer.appendChild(legendItem);
-        });
+        var legendContainer = document.getElementById('js-legend');
+legendContainer.innerHTML = ''; 
+scatterChart.data.datasets.forEach((dataset, i) => {
+  var legendItem = document.createElement('li');
+  var colorBox = document.createElement('span');
+  colorBox.style.backgroundColor = dataset.backgroundColor;
+  colorBox.style.display = 'inline-block';
+  colorBox.style.width = '10px'; 
+  colorBox.style.height = '10px'; 
+  colorBox.style.marginRight = '5px';
+  legendItem.appendChild(colorBox);
+  legendItem.appendChild(document.createTextNode(dataset.label));
+  legendContainer.appendChild(legendItem);
+});
+
       }
 
       updateChart(originalData);

@@ -24,8 +24,8 @@ function createDataDisplayUpdater(originalData) {
 }
 
 function processAndDisplayData(data) {
-  const table = document.getElementById("storeTable");
-  table.innerHTML = ''; // Clear existing table rows
+  const tbody = document.querySelector("#storeTable tbody");
+  tbody.innerHTML = ''; // Clear existing table rows
 
   const groupedData = data.reduce((acc, curr) => {
     const key = `${curr.productCategory}-${curr.productType}-${curr.storeLocation}`;
@@ -58,6 +58,6 @@ function processAndDisplayData(data) {
                   <td>${item.totalQty}</td>
                   <td>${item.totalRevenue}</td>
                 </tr>`;
-    table.innerHTML += row;
+    tbody.innerHTML += row;
   });
 }

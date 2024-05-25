@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Dashboard</title>
-    <link rel="icon" href="image/Logo-RevoU-5.png">
+    <link rel="icon" href="image/Logo-RevoU-5.png" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
@@ -38,7 +38,8 @@
             <div class="dropdown">
               <button class="dropbtn">
                 <span class="btn-content"
-                  >Product Category <span class="count"></span> <span class="arrow">&#9660;</span></span
+                  >Product Category <span class="count"></span>
+                  <span class="arrow">&#9660;</span></span
                 >
               </button>
               <div class="dropdown-content">
@@ -64,7 +65,8 @@
             <div class="dropdown">
               <button class="dropbtn">
                 <span class="btn-content"
-                  >Store <span class="count"></span> <span class="arrow">&#9660;</span></span
+                  >Store <span class="count"></span>
+                  <span class="arrow">&#9660;</span></span
                 >
               </button>
               <div class="dropdown-content">
@@ -85,7 +87,8 @@
             <div class="dropdown">
               <button class="dropbtn">
                 <span class="btn-content"
-                  >Month <span class="count"></span> <span class="arrow">&#9660;</span></span
+                  >Month <span class="count"></span>
+                  <span class="arrow">&#9660;</span></span
                 >
               </button>
               <div class="dropdown-content">
@@ -112,7 +115,8 @@
             <div class="dropdown">
               <button class="dropbtn">
                 <span class="btn-content"
-                  >Day <span class="count"></span> <span class="arrow">&#9660;</span></span
+                  >Day <span class="count"></span>
+                  <span class="arrow">&#9660;</span></span
                 >
               </button>
               <div class="dropdown-content">
@@ -153,26 +157,36 @@
               <div class="trendDay">
                 <h3>Daily Transaction per Product Type</h3>
                 <canvas class="box" id="trendDay" style="margin-bottom: 20px"></canvas>
-                <h3>Leading Store for Each Product Type</h3>
-                <table id="storeTable" style="margin-bottom: 20px">
-                  <tr>
-                    <th>Product Type</th>
-                    <th>Store</th>
-                    <th>Transactions</th>
-                    <th>Revenue</th>
-                  </tr>
-                </table>
-                <h3>Average Transaction Per Hour</h3>
-                <canvas class="box" id="trendHour"></canvas>
               </div>
-              <div class="transactionAndRevenue">
-                <div class="totalTransaction">
-                  <h3>Total Transactions per Product Type</h3>
-                  <canvas class="box" id="totalTransaction"></canvas>
-                </div>
-                <div class="totalRevenue">
-                  <h3>Total Revenue per Product Type</h3>
-                  <canvas class="box" id="totalRevenue"></canvas>
+              <div class="trendHour">
+                <h3>Average Transaction Per Hour</h3>
+                <canvas class="box" id="trendHour" style="margin-bottom: 20px"></canvas>
+              </div>
+            </div>
+            <div class="transactionAndRevenue">
+              <div class="totalTransaction">
+                <h4>Total Transactions per Product Type</h4>
+                <canvas class="box" id="totalTransaction"></canvas>
+              </div>
+              <div class="totalRevenue">
+                <h4>Total Revenue per Product Type</h4>
+                <canvas class="box" id="totalRevenue"></canvas>
+              </div>
+              <div class="storeTableContainer">
+                <h3>Leading Store for Each Product Type</h3>
+                <div class="storeTable">
+                  <table id="storeTable">
+                    <thead>
+                      <tr>
+                        <th>Product Type</th>
+                        <th>Store</th>
+                        <th>Transactions</th>
+                        <th>Revenue</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -182,28 +196,22 @@
                 <div class="product-variety-revenue">
                   <h3>Product Variety on Revenue</h3>
                   <canvas class="box" id="product-variety-revenue"></canvas>
-                  <div class="legend-container">
-                    <div id="js-legend-revenue" class="chart-legend"></div>
-                  </div>
                 </div>
                 <div class="product-variety-transaction">
                   <h3>Product Variety on Transaction</h3>
                   <canvas class="box" id="product-variety-transaction"></canvas>
-                  <div class="legend-container">
-                    <div id="js-legend-transaction" class="chart-legend"></div>
-                  </div>
                 </div>
                 <div class="price-influence-purchasing-behaviour">
-                  <h3>Product Price Influence on Purchasing Behaviour</h3>
+                  <h3>Price Influence on Purchasing Behaviour</h3>
                   <canvas class="box" id="price-influence-purchasing-behaviour"></canvas>
-                  <div
-                    id="js-legend-purchasing-behaviour"
-                    class="chart-legend"
-                  ></div>
                 </div>
               </div>
-            </div>
+              <div class="legend-container" style="margin-top: 10px;">
+                <div id="js-legend" class="chart-legend"></div>
+              </div>
+            </div>            
           </div>
+          
         </div>
       </div>
     </div>

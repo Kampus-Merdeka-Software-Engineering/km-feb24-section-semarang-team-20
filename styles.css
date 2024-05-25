@@ -498,15 +498,15 @@ footer {
 .storeTableContainer h3 {
   text-align: center;
   margin-bottom: 10px;
-  height: 40px; /* Set a fixed height for the heading */
-  line-height: 40px; /* Center the text vertically */
+  height: 40px; 
+  line-height: 40px; 
 }
 
 .storeTable {
   width: 100%;
   height: 300px;
   overflow: auto;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 #storeTable {
@@ -518,16 +518,16 @@ footer {
 #storeTable thead {
   position: sticky;
   top: 0;
-  background-color: #fff; /* Ensure the background matches the table */
-  z-index: 1; /* Keep it above the table body */
+  background-color: #fff; 
+  z-index: 1; 
 }
 
 #storeTable th, #storeTable td {
   text-align: left;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 #storeTable th {
-  background-color: #f2f2f2; /* Optional: Different background for headers */
+  background-color: #f2f2f2; 
 }

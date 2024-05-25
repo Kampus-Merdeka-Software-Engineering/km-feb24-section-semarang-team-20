@@ -1,20 +1,19 @@
 const productColors = {
-    "Drip coffee": "rgba(255, 255, 204, 0.8)",
-    "Organic brewed coffee": "rgba(204, 255, 229, 0.8)",
-    "Gourmet brewed coffee": "rgba(180, 210, 240, 0.8)",
-    "Premium brewed coffee": "rgba(219, 112, 147, 1)",
-    "Barista Espresso": "rgba(197, 233, 255, 0.8)",
-    "Brewed herbal tea": "rgba(255, 182, 193, 0.8)",
-    "Brewed Green tea": "rgba(216, 191, 216, 1)",
-    "Brewed Black tea": "rgba(221, 160, 221, 1)",
-    "Brewed Chai tea": "rgba(200, 220, 230, 0.8)",
-    "Hot chocolate": "rgba(240, 240, 150, 0.8)",
-    "Regular syrup": "rgba(150, 250, 230, 0.8)",
-    "Sugar free syrup": "rgba(255, 235, 238, 1)",
-    "Biscotti": "rgba(180, 240, 150, 0.8)",
-    "Scone": "rgba(230, 185, 190, 0.8)",
-    "Pastry": "rgba(180, 240, 200, 0.8)"
-  };
-  
-  export default productColors;
-  
+  "Drip coffee": "rgba(101, 67, 33, 1)",
+  "Organic brewed coffee": "rgba(139, 69, 19, 1)",
+  "Gourmet brewed coffee": "rgba(160, 82, 45, 1)",
+  "Premium brewed coffee": "rgba(210, 105, 30, 1)",
+  "Barista Espresso": "rgba(205, 133, 63, 1)",
+  "Brewed herbal tea": "rgba(50, 205, 50, 1)",
+  "Brewed Green tea": "rgba(34, 139, 34, 1)",
+  "Brewed Black tea": "rgba(152, 251, 152, 1)",
+  "Brewed Chai tea": "rgba(124, 252, 0, 1)",
+  "Hot chocolate": "rgba(121, 85, 72, 1)",
+  "Regular syrup": "rgba(255, 0, 0, 1)",
+  "Sugar free syrup": "rgba(139, 0, 0, 1)",
+  "Biscotti": "rgba(255, 165, 0, 1)",
+  "Scone": "rgba(255, 140, 0, 1)",
+  "Pastry": "rgba(255, 69, 0, 1)"
+};
+
+export default productColors;

@@ -43,11 +43,9 @@ function processAndDisplayData(data) {
     return acc;
   }, {});
 
-  const categoryOrder = ["Coffee", "Tea", "Drinking Chocolate", "Flavours", "Pastry"];
-
   const sortedData = Object.values(groupedData).sort((a, b) => {
-    const categoryComparison = categoryOrder.indexOf(a.productCategory) - categoryOrder.indexOf(b.productCategory);
-    if (categoryComparison !== 0) return categoryComparison;
+    if (a.productCategory < b.productCategory) return -1;
+    if (a.productCategory > b.productCategory) return 1;
     if (a.productType < b.productType) return -1;
     if (a.productType > b.productType) return 1;
     return b.totalRevenue - a.totalRevenue;

@@ -86,31 +86,10 @@ window.addEventListener('load', function() {
               },
                 legend: {
                     display: false,
-                    position:"bottom",
-                    labels: {
-                    usePointStyle: true,
-                    pointStyle: 'circle',
-                    },
-                    onClick: null
                 },
             },
           },
         });
-
-        var legendContainer = document.getElementById('js-legend');
-legendContainer.innerHTML = ''; 
-scatterChart.data.datasets.forEach((dataset, i) => {
-  var legendItem = document.createElement('li');
-  var colorBox = document.createElement('span');
-  colorBox.style.backgroundColor = dataset.backgroundColor;
-  colorBox.style.display = 'inline-block';
-  colorBox.style.width = '10px';
-  colorBox.style.height = '10px'; 
-  colorBox.style.marginRight = '5px';
-  legendItem.appendChild(colorBox);
-  legendItem.appendChild(document.createTextNode(dataset.label));
-  legendContainer.appendChild(legendItem);
-});
 
       }
 
@@ -119,6 +98,4 @@ scatterChart.data.datasets.forEach((dataset, i) => {
       addCheckboxEventListeners(updateChart, originalData);
     })
     .catch((error) => console.error("Error:", error));
-
-    
 });

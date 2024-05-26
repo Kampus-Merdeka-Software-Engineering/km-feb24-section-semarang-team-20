@@ -5,6 +5,21 @@
     <link rel="icon" href="image/Logo-RevoU-5.png" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css"
+    />
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://code.jquery.com/jquery-3.5.1.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"
+    ></script>
   </head>
   <body>
     <div>
@@ -152,11 +167,19 @@
             <div class="trend">
               <div class="trendDay">
                 <h3>Daily Transaction per Product Type</h3>
-                <canvas class="box" id="trendDay" style="margin-bottom: 20px"></canvas>
+                <canvas
+                  class="box"
+                  id="trendDay"
+                  style="margin-bottom: 20px"
+                ></canvas>
               </div>
               <div class="trendHour">
                 <h3>Average Transaction Per Hour</h3>
-                <canvas class="box" id="trendHour" style="margin-bottom: 20px"></canvas>
+                <canvas
+                  class="box"
+                  id="trendHour"
+                  style="margin-bottom: 20px"
+                ></canvas>
               </div>
             </div>
             <div class="transactionAndRevenue">
@@ -180,8 +203,7 @@
                         <th>Revenue</th>
                       </tr>
                     </thead>
-                    <tbody>
-                    </tbody>
+                    <tbody></tbody>
                   </table>
                 </div>
               </div>
@@ -199,15 +221,17 @@
                 </div>
                 <div class="price-influence-purchasing-behaviour">
                   <h3>Price Influence on Purchasing Behaviour</h3>
-                  <canvas class="box" id="price-influence-purchasing-behaviour"></canvas>
+                  <canvas
+                    class="box"
+                    id="price-influence-purchasing-behaviour"
+                  ></canvas>
                 </div>
               </div>
-              <div class="legend-container" style="margin-top: 10px;">
+              <div class="legend-container" style="margin-top: 10px">
                 <div id="js-legend" class="chart-legend"></div>
               </div>
-            </div>            
+            </div>
           </div>
-          
         </div>
       </div>
     </div>

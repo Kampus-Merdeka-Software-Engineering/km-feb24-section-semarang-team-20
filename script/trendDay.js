@@ -87,7 +87,6 @@ window.addEventListener('load', function() {
                       usePointStyle: true,
                       pointStyle: 'circle',
                     },
-                    onClick: null
                   },
                 },
                 responsive: true,

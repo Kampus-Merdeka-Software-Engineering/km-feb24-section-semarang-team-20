@@ -25,7 +25,7 @@ function createDataDisplayUpdater(originalData) {
 
 function processAndDisplayData(data) {
   const tbody = document.querySelector("#storeTable tbody");
-  tbody.innerHTML = ''; // Clear existing table rows
+  tbody.innerHTML = ''; 
 
   const groupedData = data.reduce((acc, curr) => {
     const key = `${curr.productCategory}-${curr.productType}-${curr.storeLocation}`;
@@ -60,4 +60,6 @@ function processAndDisplayData(data) {
                 </tr>`;
     tbody.innerHTML += row;
   });
+
+   $('#storeTable').DataTable();
 }

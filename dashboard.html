@@ -5,6 +5,8 @@
     <link rel="icon" href="image/Logo-RevoU-5.png" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
     <link
       rel="stylesheet"
       type="text/css"
@@ -20,6 +22,9 @@
       charset="utf8"
       src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"
     ></script>
+    <script>
+      window.allCharts = [];
+    </script>
   </head>
   <body>
     <div>
@@ -247,9 +252,6 @@
     ></script>
     <script type="module" src="script/leadingStore.js"></script>
     <script type="module" src="script/trendHour.js"></script>
-
-    <script src="https://unpkg.com/chart.js-plugin-labels-dv/dist/chartjs-plugin-labels.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 
     <div id="footer"></div>
     <script src="footer.js"></script>

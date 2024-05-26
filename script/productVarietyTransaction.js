@@ -1,8 +1,10 @@
 import { filterData, addCheckboxEventListeners } from './filter.js';
 import productColors from "../colors.js";
+import { updateLegend } from './distributionLegend.js';
 
 window.addEventListener('load', function() {
-  let scatterChart; 
+  let scatterChart;
+  let allCharts = window.allCharts;
 
   fetch("data/trend_data.json")
     .then((response) => response.json())
@@ -90,7 +92,12 @@ window.addEventListener('load', function() {
             },
           },
         });
+
+        allCharts.push(scatterChart);
+        console.log(allCharts);
+        updateLegend(scatterChart, 'js-legend', allCharts);
       }
+
       updateChart(originalData);
       addCheckboxEventListeners(updateChart, originalData);
     })

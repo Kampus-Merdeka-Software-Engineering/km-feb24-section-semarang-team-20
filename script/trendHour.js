@@ -66,6 +66,16 @@ window.addEventListener('load', function() {
                 beginAtZero: true
               }
             },
+            plugins: {
+              legend: {
+                display: true,
+                labels: {
+                  usePointStyle: true,
+                  pointStyle: 'circle',
+                },
+                onClick: null,
+              }
+            }
           }
         });
       }

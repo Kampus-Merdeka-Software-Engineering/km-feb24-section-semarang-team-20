@@ -9,6 +9,7 @@ body {
   color: #333;
   background-color: #F1D8D0;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 img {
@@ -68,7 +69,7 @@ img {
   display: flex;
   flex-direction: row;
   height: 300px;
-  background-image: url('image/coffee-cup2.jpg'); 
+  background: rgba(171, 114, 117, 0.5);
   background-size: cover; 
 }
 
@@ -80,7 +81,7 @@ img {
 }
 
 .image-container h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
@@ -94,11 +95,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; 
   margin-left: 50px;
-  border: 1px solid black;
 }
 
 .image-item:hover {
@@ -109,7 +108,7 @@ img {
   width: 100%;
   border-radius: 5px 5px 0 0; 
   height: 140px;
-  width: 200px;
+  width: 150px;
 }
 
 .image-item p {
@@ -394,14 +393,6 @@ img {
   max-width: 100%;
 }
 
-.our-members {
-  max-width: 100%;
-  height: fit-content;
-  border: 2px solid black;
-  text-align: left;
-  box-sizing: border-box; 
-}
-
 .team-members {
   max-width: 100%; 
   display: flex;
@@ -414,6 +405,7 @@ img {
 
 .team-category {
   max-width: 100%;
+  margin-top: -20px;
 }
 
 .team-category h3{
@@ -429,10 +421,14 @@ img {
 
 .member {
   margin: 10px;
+  text-align: center;
+  width: 100px; 
 }
 
-.member h4 {
+.member h5 {
   color: black; 
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .member img {

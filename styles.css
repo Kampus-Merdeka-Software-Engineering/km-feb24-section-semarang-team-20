@@ -10,14 +10,89 @@ body {
   background-color: #F1D8D0;
 }
 
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
 .landing-page{
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  display: flex;
+  display: row;
   justify-content: center;
   text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
 }
+
+.banner {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url('image/coffee-beans.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text-banner {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.index-body {
+  margin: 0;
+  padding: 0;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: row;
+}
+
+#coffee-shop-image {
+  height: 400px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* This will center the image and text vertically within .image-item */
+  width: 33%;
+  padding: 7%;
+}
+
+.image-item img {
+  width: 100%;
+}
+
+.image-item p {
+  text-align: center;
+}
+
 
 .start{
   margin-top: 20px;
@@ -26,13 +101,28 @@ body {
   text-decoration: none;
   display: block;
   font-size: 20px;
-  color: #333333;
-  margin-bottom: 50px;
+  color: white;
+  padding-bottom: 50px;
 }
 
 .start a:hover{
   margin-top: 20px;
   font-weight: bold;
+}
+
+.start a {
+  color: white;
+  text-decoration: none;
+}
+
+.start a:visited {
+  color: white;
+}
+
+.start a:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #E0C0B0;
 }
 
   .topnav {
@@ -322,7 +412,6 @@ body {
     border-top: 10px solid transparent; 
     border-bottom: 10px solid transparent; 
 }
-  
 
 
 header {
@@ -530,3 +619,5 @@ footer {
 #storeTable th {
   background-color: #f2f2f2; 
 }
+
+

@@ -9,7 +9,6 @@ window.addEventListener('load', function() {
       function updateChart(data) {
         const hourlyTransactions = {};
 
-        // Sum up the transactions for each hour
         data.forEach(item => {
           const hourlyTxns = item.hourlyTransactions;
           for (const hour in hourlyTxns) {
@@ -21,22 +20,18 @@ window.addEventListener('load', function() {
           }
         });
 
-        // Calculate the average transactions per hour
         const averageTransactionsPerHour = {};
         const totalItems = data.length;
         for (const hour in hourlyTransactions) {
           averageTransactionsPerHour[hour] = hourlyTransactions[hour] / totalItems;
         }
 
-        // Sort the hours in ascending order
         const sortedHours = Object.keys(averageTransactionsPerHour).sort((a, b) => parseInt(a) - parseInt(b));
 
-        // Destroy the old chart if it exists
         if (barChart) {
           barChart.destroy();
         }
 
-        // Create the chart
         const ctx = document.getElementById('trendHour');
         barChart = new Chart(ctx, {
           type: 'bar',

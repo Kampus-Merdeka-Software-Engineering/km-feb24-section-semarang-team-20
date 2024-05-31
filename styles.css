@@ -8,6 +8,16 @@ body {
   margin: 0;
   color: #333;
   background-color: #F1D8D0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 #navigation {
@@ -62,11 +72,6 @@ body {
   background-size: cover; 
 }
 
-#coffee-shop-image {
-  height: 400px;
-  width: 400px;
-}
-
 .image-container {
   display: flex;
   flex-direction: column;
@@ -82,7 +87,7 @@ body {
 .image-row {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  max-width: 100%;
 }
 
 .image-item {
@@ -392,7 +397,7 @@ body {
 }
 
 .our-members {
-  width: 100%;
+  max-width: 100%;
   height: fit-content;
   border: 2px solid black;
   text-align: left;
@@ -400,7 +405,7 @@ body {
 }
 
 .team-members {
-  width: 100%; 
+  max-width: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -411,7 +416,7 @@ body {
 }
 
 .team-category {
-  width: 100%;
+  max-width: 100%;
 }
 
 .team-category h3{

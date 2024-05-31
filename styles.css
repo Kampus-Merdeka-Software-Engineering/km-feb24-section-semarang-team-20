@@ -21,8 +21,6 @@ body {
   display: row;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   margin-bottom: -20px;
 }
 
@@ -56,28 +54,12 @@ body {
   z-index: 1;
 }
 
-.index-body {
-  margin: 0;
-  padding: 0;
-}
-
 .data-card {
   display: flex;
   flex-direction: row;
   height: 400px;
   background-image: url('image/coffee-cup2.jpg'); 
   background-size: cover; 
-}
-
-#coffee-shop-image {
-  height: 400px;
-  width: 400px;
-}
-
-.data-card {
-  display: flex;
-  flex-direction: row;
-  height: 400px;
 }
 
 #coffee-shop-image {
@@ -107,11 +89,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  flex-basis: 30%; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; 
-  margin: 3%;
+  margin: 1.5%; 
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.5 );
 }
@@ -311,7 +293,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 100%; /* Ensure dropdown content matches the button width */
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   flex-direction: column;
@@ -424,7 +406,7 @@ body {
   align-items: center;
   border-top: 5px solid black;
   box-sizing: border-box; 
-  background-image: url('image/coffee-beans2.png'); 
+  background-image: url('image/coffee-cup2.jpg'); 
   background-size: cover;
 }
 

@@ -40,3 +40,4 @@ function adjustPadding() {
   }
 }
 
+window.addEventListener('hashchange', highlightActiveLink);

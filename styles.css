@@ -23,6 +23,7 @@ body {
   text-align: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  margin-bottom: -20px;
 }
 
 .banner {
@@ -31,7 +32,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: url('image/coffee-beans.jpg') no-repeat center center fixed; 
+  background: url('image/coffee-cup.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,6 +65,8 @@ body {
   display: flex;
   flex-direction: row;
   height: 400px;
+  background-image: url('image/coffee-cup2.jpg'); 
+  background-size: cover; 
 }
 
 #coffee-shop-image {
@@ -415,37 +418,50 @@ body {
 }
 
 .team-members {
-width: 100%; 
-display: flex;
-flex-direction: column;
-align-items: center;
-border-top: 5px solid black;
-box-sizing: border-box; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 5px solid black;
+  box-sizing: border-box; 
+  background-image: url('image/coffee-beans2.png'); 
+  background-size: cover;
 }
 
 .team-category {
-width: 100%;
+  width: 100%;
+}
+
+.team-category h3{
+  color:black;
 }
 
 .members-row {
-display: flex;
-flex-wrap: wrap;
-justify-content: center; /* This will center the content */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center; 
+  overflow-x: auto; 
 }
 
 .member {
-flex-basis: calc(25% - 5%); 
-width: calc(25% - 5%);
-text-align: center;
-padding: 0; /* Remove padding */
-margin: 0; /* Remove margin */
+  margin: 10px;
+}
+
+.member h4 {
+  color: black; 
 }
 
 .member img {
-height: 75%;
-width: 75%;
-padding: 0; /* Remove padding */
-margin: 0; /* Remove margin */
+  height: 200px; 
+  width: 200px; 
+  padding: 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+.side-by-side-categories {
+  display: flex;
+  justify-content: space-between;
 }
 
 
